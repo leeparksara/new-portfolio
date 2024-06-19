@@ -11,7 +11,7 @@ const Header: React.FC = () =>{
           <ul> <li><Link className='nav-link' to="/">Home</Link></li></ul>
           <ul><li><Link className='nav-link' to="/">My Works</Link></li></ul>
           <ul><li><Link className='nav-link' to="/">About</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/">Contact</Link></li></ul>
+          <ul><li><Link className='nav-link' to="contact">Contact</Link></li></ul>
             </nav>
 
         </div>
