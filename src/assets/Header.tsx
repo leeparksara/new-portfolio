@@ -1,15 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import logo from '../images/Logo Shapes 20.svg'
 const Header: React.FC = () =>{
     
     return(
         <div className='header'>
-             <h4> Sara Leepark</h4>
+           <img className='logo' src={logo} alt="logo"/>
             <nav>
           
           <ul> <li><Link className='nav-link' to="/">Home</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/">My Works</Link></li></ul>
+          <ul><li><Link className='nav-link' to="myworks">Pojects</Link></li></ul>
           <ul><li><Link className='nav-link' to="/">About</Link></li></ul>
           <ul><li><Link className='nav-link' to="contact">Contact</Link></li></ul>
             </nav>
