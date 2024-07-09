@@ -8,13 +8,13 @@ import designResult1 from '../images/Screenshot 2024-07-07 000631.png'
 import designResult2 from '../images/Screenshot 2024-07-07 000701.png'
 import designResult3 from '../images/Screenshot 2024-07-07 000806.png'
 import designResult4 from '../images/Screenshot 2024-07-07 000837.png'
-import verifer from '../images//iPhone 15 Pro.png';
 import spa from '../images/Mac Studio2.png'
 import designThinking from '../images/design-thinking.png'
 import defineSection from '../images/Group 48.png'
 import userflow from'../images/Verify userflow.png';
-import ideas from '../images/Frame 121075649.png'
-import wireframes from '../images/Frame 427318908.png'
+import ideas from '../images/Frame 2.png'
+import wireframes from '../images/Group 130.png'
+import wireframes1 from '../images/Group 148.png'
 
 const Myzada = () => {
   return (
@@ -88,8 +88,30 @@ Tools
         <h5>Solution</h5>
         <p> By using Figma, I created wireframes that documented the temporary design ideas for the ideate stage of the case study. These wireframes show the basic layout and the new user flow, which constitute an important part of the ongoing design process</p>
         <img className='ideas' src={ideas} alt="ideas "/>
+       
+            
         <img className='userflow' src={userflow} alt="userflow"/>
-        <img className='wireframes' src={wireframes} alt="wireframes"/>
+      <div id="wireframe">
+        <hr></hr>
+<h5>Low fidelity prototype</h5>
+
+    
+<div >
+
+      
+      <img className='wireframes' src={wireframes} alt="wireframes"/>
+</div>
+
+
+
+      <div>
+
+      <img src={wireframes1} alt="mobile-wireframes" />
+      </div>
+      
+
+      </div>
+    
     </div>
  
       
@@ -106,8 +128,6 @@ Tools
     <img src={designResult3} alt="design result 3"/>
     <img src={designResult4} alt="design resulr 4" />
         </div>
-
- 
     </div>
     </div>
 
@@ -131,10 +151,9 @@ Tools
         <h4> MyZada</h4>
         <p> Zada is a web application for requesting credentials, redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases, and add new features to improve of the application </p>
 <div className='other-project-btn'>
-<Link  to="/">View study case</Link>
+<Link  to="myzada">View study case</Link>
 </div>
         </div>
-
 
     </div>
 </div>

@@ -457,17 +457,18 @@ font-size:16px ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
    
 }
 
 .design-section img{
-  width: 32rem;
-  height: 15rem;
+  width: 70%;
+  height: 100%;
 }
 .design-section h5{
   font-size: x-large;
  font-weight: 400;
+
 }
 .design-section ul{
   width: 630px;
@@ -486,21 +487,15 @@ font-size:16px ;
   justify-content: center;
   align-items: center;
 }
-.solution img{
-  width: 44rem;
-  height: 23rem;
-}
+
 .design-section p{
  width: 630px;;
   line-height: 26px;
   font-size: larger;
+  margin-bottom: 5rem;
 }
 
-.design-system img{
-  width: 60rem;
-  height: 50rem;
 
-}
 .result-section{
   width: 100%;
  
@@ -515,14 +510,6 @@ font-size:16px ;
 
  
 }
-
-.result-section  img{
-  width: 60%;
-  height: 100%;
-  margin-top: 30px;
-}
-
-
 
 
 .other-project {
@@ -583,20 +570,22 @@ flex-direction: column;
 
 
 
-.process img{
-  width:50%;
-  height: 100%;
-}
 .solution .ideas{
-  width:50%;
+  width:80%;
   height: 100%;
   
 }
 .solution .userflow{
-  width: 70%;
+  width: 80%;
   height: 100%;
 }
-.solution .wireframes{
-  width: 65%;
-  height:44rem;
+hr{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
 }
+ #wireframe  img {
+  width: 80%;
+ height: 100%;
+}
+
