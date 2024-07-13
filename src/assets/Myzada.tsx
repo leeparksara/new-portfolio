@@ -9,7 +9,7 @@ import designResult1 from '../images/Screenshot 2024-07-02 161755.png'
 import designResult2 from '../images/Screenshot 2024-07-02 162039.png'
 import designResult3 from '../images/Screenshot 2024-07-02 163643.png'
 import verifer from '../images/iPhone 15 Pro.png'
-import spa from '../images/Mac Studio2.png'
+import spa from '../images/Mac Studio.png'
 const Myzada = () => {
   return (
     <div>
@@ -114,24 +114,32 @@ Tools
 <div  className='other-project'>
  
     <div className='other-project-1'>
+       
+   
         <img src={spa} alt='spa projects'/>
+     
         <div className='other-project-info'>
-        <h4> Horizon</h4>
-        <p> Horizon is a resort website designed for booking accommodations, spa services, and dining experiences. I personally designed and developed this project from start to finish</p>
+        <h4> Urban</h4>
+        <p> Urban is an electronic online store, developed as a collaborative project with two classmates under my studies. My role was to design a flexible online store that works on different devices, manage the database using PostgreSQL</p>
         <div className='other-project-btn' >
-        <Link  to='https://horizonspa.netlify.app/'> View Project</Link>
+        <Link  to='urban'> View Project</Link>
         </div>
 
         </div>
 
     </div>
     <div className='other-project-2'>
-        <img src={verifer} alt='spa projects'/>
+      <div>
+      <img src={verifer} alt='spa projects'/>
+      </div>
+       
+
         <div className='other-project-info'>
         <h4> Zada Verify</h4>
         <p> Zada Verify is a web application for verifying credentials, designed as part of my internship. My role was to create a new UI/UX concept, conduct user experience research, and redesign the application </p>
 <div className='other-project-btn'>
-<Link  to="/">View study case</Link>
+{/* use the project given ID to redirct to the right component */}
+<Link  to="zada-verify">View study case</Link>
 </div>
         </div>
 

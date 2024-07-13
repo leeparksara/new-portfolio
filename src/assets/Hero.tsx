@@ -2,7 +2,7 @@ import React from 'react'
 import profil from '../images/profile.png'
 import spa from '../images/spa.png'
 import el from '../images/el2.png'
-import game from '../images/game.png'
+
 import verifier from '../images/verifer.png'
 import myzada from '../images/myzada.png'
 
@@ -74,17 +74,7 @@ return(
 
         </div>
     </div>
-    <div className='item-card5'>
-        
-        <img className='item5' src={game} alt="item"/>
-        <div className='card-info'>
-            <h1>Horizon </h1>
-            <p> Designing and developing a resort website using Figma for the design and React.js for the development.</p>
-
-<button className="card1-btn">View Project</button>
-
-        </div>
-    </div>
+    
     </div>
 </div>
 

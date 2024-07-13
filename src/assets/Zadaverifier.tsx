@@ -13,10 +13,10 @@ import designThinking from '../images/design-thinking.png'
 import defineSection from '../images/Group 48.png'
 import userflow from'../images/Verify userflow.png';
 import ideas from '../images/Frame 2.png'
-import wireframes from '../images/Group 130.png'
+import wireframes from '../images/dekstopWireframes.png'
 import wireframes1 from '../images/Group 148.png'
 
-const Myzada = () => {
+const Zadaverify = () => {
   return (
     <div>
            <Header/>
@@ -139,7 +139,7 @@ Tools
         <h4> Horizon</h4>
         <p> Horizon is a resort website designed for booking accommodations, spa services, and dining experiences. I personally designed and developed this project from start to finish</p>
         <div className='other-project-btn' >
-        <Link  to='https://horizonspa.netlify.app/'> View Project</Link>
+        <Link  to="https://horizonspa.netlify.app/"> View Project</Link>
         </div>
 
         </div>
@@ -151,7 +151,7 @@ Tools
         <h4> MyZada</h4>
         <p> Zada is a web application for requesting credentials, redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases, and add new features to improve of the application </p>
 <div className='other-project-btn'>
-<Link  to="myzada">View study case</Link>
+<Link  to="Myzada">View study case</Link>
 </div>
         </div>
 
@@ -165,4 +165,4 @@ Tools
   )
 }
 
-export default Myzada
+export default Zadaverify;
