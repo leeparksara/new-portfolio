@@ -8,14 +8,18 @@ const Footer: React.FC = () =>{
     return(
         <div className='footer'>
 
-           <div>
-            
-           <nav>
-           <img className='logo' src={logo} alt="sara leepark logo"/>
-          <ul> <li><Link className='nav-link' to="/">Home</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/">My Works</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/">About</Link></li></ul>
+           <div >
+           <nav className='footer-logo'>
+           <Link to="/">
+            <img className='logo' src={logo} alt="logo"/>
+            </Link>
+           <div className='footer-nav'>
+           <ul> <li><Link className='nav-link' to="/">Home</Link></li></ul>
+          <ul><li><Link className='nav-link' to="projects">Projects</Link></li></ul>
+          <ul><li><Link className='nav-link' to="about">About</Link></li></ul>
           <ul><li><Link className='nav-link' to="contact">Contact</Link></li></ul>
+           </div>
+      
             </nav>
            </div>
 

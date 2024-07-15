@@ -19,6 +19,9 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About/>} />
           <Route path="contact" element={ <Contact/>}/>
+          <Route path="/zada-verify" element={ <Zadaverifier/>}/>
+          <Route path="/myzada" element={ <Myzada/>}/>
+          <Route path="/urban" element={ <Urban/>}/>
 <Route path="projects" element={<Projects/>}/>
 
 <Route path="/project/myzada" element={<Myzada />} />

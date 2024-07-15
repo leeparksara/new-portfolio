@@ -6,7 +6,7 @@ import Footer from '../assets/Footer'
 import '../App.css'
 const Home: React.FC =() => {
     return(
-        <div>
+        <div className='home'>
             <Header/>
             <Hero/>
             <Footer/>

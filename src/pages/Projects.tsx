@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import Header from '../assets/Header';
 import Footer from '../assets/Footer';
 import myZadaProject from '../images/iPhone 13 Pro.png';
@@ -42,7 +43,13 @@ const Projects: React.FC = () => {
       <div className="projects-container">
         {projectItems.map((project, index) => (
           <Myworks key={index} {...project} />
+
         ))}
+
+
+<div className='contact-button'>
+<Link   to="/contact"> Contact me</Link>
+</div>
       </div>
       <Footer />
     </div>

@@ -2,13 +2,14 @@ import React from 'react'
 import profil from '../images/profile.png'
 import spa from '../images/spa.png'
 import el from '../images/el2.png'
+import {Link} from 'react-router-dom'
 
 import verifier from '../images/verifer.png'
 import myzada from '../images/myzada.png'
 
 const Hero: React.FC =() =>{
 return(
-    <div>
+    <div >
  <div className='hero-section'>
     
 <div className='hero'  >
@@ -17,7 +18,7 @@ return(
     <span>Frontend </span>  Developer
         </div> 
         <p>Based in Stockholm, Sweden</p> </h1>
-        
+           
         
    </div>
    <div> <img className='hero-image' src={profil} alt="profile" /></div>
@@ -35,10 +36,13 @@ return(
     <div className='item-card1'>
         
         <img className='item1' src={verifier} alt="item"/>
-        <div>
+        <div  className='card-info' >
             <h1>Verifeir web-app </h1>
-            <p>  Zada Verify is a web application for verifying credentials, designed as part of my internship. My role was to create a new UI/UX concept, conduct user experience research, and redesign the application</p>
-            <button className="card1-btn">View study case</button>
+            <p>  Designed as part of my internship. Created a new UI/UX concept and conducted UX research</p>
+     <div className="card1-btn" >
+     <Link   to="zada-verify">View study case</Link>
+     </div>
+          
         </div>
     </div>
     <div className='item-card2'>
@@ -46,9 +50,11 @@ return(
         <img className='item2' src={myzada} alt="item"/>
         <div className='card-info'>
             <h1>Myzada web-app </h1>
-            <p> Zada is a web application for requesting credentials, redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases, and add new features to enhance the overall usability and efficiency of the application</p>
-
-<button className="card1-btn">View study case</button>
+            <p> Redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases</p>
+<div className="card1-btn">
+<Link  to="myzada">View study case</Link>
+</div>
+      
 
         </div>
     </div>
@@ -58,8 +64,10 @@ return(
         <div className='card-info'>
             <h1>Horizon</h1>
             <p> Designing and developing a resort website using Figma for the design and React.js for the development.</p>
-
-<button className="card1-btn">View project</button>
+    <div className="card1-btn">
+    <Link   to="https://horizonspa.netlify.app/">View study case</Link>
+    </div>
+           
 
         </div>
     </div>
@@ -68,9 +76,11 @@ return(
         <img className='item4' src={el} alt="item"/>
         <div className='card-info'>
             <h1>Urban </h1>
-            <p>Urban is an electronic online store, developed as a collaborative project with two classmates under my studies. My role was to design a flexible online store that works on different devices, manage the database using PostgreSQL</p>
-
-<button className="card1-btn">View project</button>
+            <p> Designed and developed as a collaborative project with two classmates under my studies.</p>
+            <div className="card1-btn">
+            <Link   to="urban">View study case</Link>
+            </div>
+            
 
         </div>
     </div>
