@@ -10,7 +10,7 @@ interface PortfolioItemProps {
 
 const Myworks: React.FC<PortfolioItemProps> = ({ id, title, description, imageUrl }) => {
   return (
-    <div>
+    <div className="pro" >
       <Link to={`/project/${id}`}>
         <div className="project">
           <h2>{title}</h2>

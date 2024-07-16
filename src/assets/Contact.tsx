@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
                         <p>
                             I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in Stockholm. But I’m also happy to hear about opportunities that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my work and get in touch using the form.
                         </p>
-                        <ul className='contact-links'>
+                        <ul className='contact-linkss'>
                             <li><FaLinkedin size={30} /></li>
                             <li><FaGithub size={30} /></li>
                         </ul>
