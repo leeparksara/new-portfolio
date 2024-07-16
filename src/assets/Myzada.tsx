@@ -30,7 +30,7 @@ const Myzada = () => {
 
 
         <div className='details-section'>
-            <div>
+            <div className='details-tex'>
             <p> Zada is a swedish  company based in Myanmar aims to make self-sovereign identity and verifiable credentials the standard for a fair and inclusive digital world.
 
             Myzada is a web application for requesting credentials, redesigned as part of my internship in Zada. My role was to revamp the UI/UX, create new use cases, and add new features to enhance the overall usability and efficiency of the application</p>
@@ -132,7 +132,6 @@ Tools
       <div>
       <img src={verifer} alt='spa projects'/>
       </div>
-       
 
         <div className='other-project-info'>
         <h4> Zada Verify</h4>

@@ -240,16 +240,12 @@ column-gap: 24px;
  display: flex;
  justify-content: left;
  margin: 0;
- 
 }
-
-
 .contact-page{
  display: flex;
  flex-direction: column;
  align-items: center;
 margin-top: 6.25rem;
-
 }
 
 .contact-sec1{
@@ -304,6 +300,12 @@ form button{
   display: flex;
   column-gap: .9375rem;
   padding: 0;
+  margin-top: 32px;
+}
+.contact-linkss{
+  display: flex;
+  column-gap: 2rem;
+  padding: 0.7rem;
   margin-top: 32px;
 }
 
@@ -712,7 +714,7 @@ column-gap: 48px;
 text-align: center;}
 body{
   width: 100%;
-  margin: 0 ;
+  margin: 0 ;  
   padding:0;
  
 }
@@ -789,6 +791,7 @@ justify-content: center;
   font-weight: 400;
   text-align: center;
   line-height: 40px;
+  margin-top: 3rem;
 }
 .hero h1{
   color: #353432;
@@ -1097,4 +1100,173 @@ font-size: larger;
      padding: 1rem;
      margin-top: 32px;
    }
+   
+   .myzada-component{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-self: center;
+  align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-bottom: 6rem;
+   
+  }
+  .project-pic{
+    width: 100%;
+    height: auto;
+  }
+  .project-pic img{
+    width: 27rem;
+    height: auto;
+    margin: 0;
+  }
+ 
+ 
+  .project-details div h6,p{
+    margin: 0;
+  }
+  .project-details p{
+    margin-bottom: 33.6px;
+  }
+  .project-titl{
+    display: flex;
+    flex-direction: column;
+   font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  }
+
+  
+   .details-section{
+    width:100% ;
+  display: flex;
+flex-direction: column;
+
+align-self: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 48px;
+  row-gap: 6rem;
+  }
+ 
+  .details-section .details-tex{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .details-section div p{
+    font-size:1.6rem;
+    line-height: 2.8rem;
+ margin: 0;
+ width: 24.5rem;
+ padding: 0;
+  }
+  
+ .project-details div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ margin-left: 2rem;
+  row-gap: 2rem;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 5rem;
+ }
+  .project-details h6, p {
+  line-height: 1.2rem;
+  font-size:1.8rem ;
+
+  }
+ .challange ul {
+  width: 100%;
+
+ }
+ .challange ul li{
+  font-size: 1.4rem;
+  width: 25.23rem;
+  line-height: 2.1rem;
+margin-bottom: 1.7rem;
+ }
+ 
+.solution p{
+  font-size: 1.4rem;
+  width: 25.23rem;
+  line-height: 2.1rem;
+}
+ 
+.design-system p{
+  
+  font-size: 1.4rem;
+  width: 25.23rem;
+  line-height: 2.1rem;
+  
+}
+.result-section p{
+  font-size: 1.4rem;
+  width: 25.23rem;
+  line-height: 2.1rem;
+}
+.other-project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  margin-top: 2rem;
+}
+.other-project-1 img,.other-project-2 img{
+  width:22rem;
+  height: auto;
+  margin: 0;
+ }
+ 
+ 
+ .result-section img,.design-system img, .solution img{
+  width: 24rem;
+  margin: 0;
+
+ }
+
+ .result-section h5,.design-system h5, .solution h5{
+  font-size: 2rem;
+text-align: center;
+ }
+ .other-project-1, .other-project-2{
+
+    width: 22rem;
+  height: 100%;
+   padding: 1.3rem;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   border: none;
+   box-shadow:0px 5px 8px 0px
+   #e2e2e2;
+  
+  }
+  .other-project-info{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .other-project-1 .other-project-btn {
+    margin-top:6rem;
+
+  }
+  .other-project-btn{
+  width: 19.6rem;
+  }
+  
+  
 }
