@@ -36,7 +36,7 @@ const Zadaverify = () => {
 
 
         <div className='details-section'>
-            <div>
+            <div className='details-tex'>
             <p> As part of my internship with Zada, I worked on creating a new UI/UX concept, conducting user experience research, and redesigning the Zada Verify web application for verifying credentials. The goal was to improve overall usability and add new features based on user needs.</p>
             </div>
 

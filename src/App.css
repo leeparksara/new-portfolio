@@ -1212,6 +1212,7 @@ margin-bottom: 1.7rem;
   font-size: 1.4rem;
   width: 25.23rem;
   line-height: 2.1rem;
+ 
 }
 .other-project{
   display: flex;
@@ -1228,8 +1229,6 @@ margin-bottom: 1.7rem;
   height: auto;
   margin: 0;
  }
- 
- 
  .result-section img,.design-system img, .solution img{
   width: 24rem;
   margin: 0;
@@ -1267,6 +1266,44 @@ text-align: center;
   .other-project-btn{
   width: 19.6rem;
   }
+  .project-pic .urban{
+    width: 100%;
+    height: auto;
+    margin: 0; 
+    
+  }
   
-  
+ .process{
+  width:100%
+ }
+ .process img{
+  width:100%;
+  height: auto;
+  margin: 0;
+ }
+ .process h5{
+  font-size: 2rem;
+  text-align: center;
+ }
+ .process p{
+  font-size: 1.4rem;
+  width: 25.23rem;
+  line-height: 2.1rem;
+ }
+ .solution .ideas {
+  width: 100%;
+ }
+.solution .userflow{
+  width: 100%;
+ }
+  .result-images{
+  row-gap: 2rem;
+  }
+
+.result-section{
+  row-gap:3rem;
+}
+.design-system img{
+width: 100%;
+}
 }
