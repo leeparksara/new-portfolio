@@ -1028,8 +1028,8 @@ font-size: larger;
   margin-top: 6rem;
   padding-bottom: 5rem;
 }
-.project img{
-  width: 26;
+.pro img{
+  width: 26rem;
   height: 100%;
  
 }
@@ -1070,7 +1070,7 @@ font-size: larger;
   
 }
 .about-component img{
-  width: 336px;
+  width: 21rem;
   height: auto;
   border-radius: 96px;
 
@@ -1091,14 +1091,14 @@ font-size: larger;
 .skill-section p {
   width: 23rem;
   margin: 0;
-  font-size: 20.8px;
+  font-size: 1.1rem;
   line-height: 32px;
 }
 
   .about-text p{
     line-height: 2rem;
     width: 24rem;
-    font-size: 1.19rem;
+    font-size: 1.1rem;
    
   }
  
@@ -1114,7 +1114,7 @@ font-size: larger;
    row-gap: 2rem;
     margin-left: 0;
     text-align: left;
-    
+   
   }
   .about-button{
     margin: 0;
@@ -1138,7 +1138,6 @@ font-size: larger;
     align-items: center;
   justify-content: center;
    margin-top: 100px;
-  
    padding-bottom: 7rem;
    row-gap: 56px;
  
@@ -1165,7 +1164,7 @@ font-size: larger;
    .contact-sec1 p{
    width:24rem;
    line-height: 37.6px;
-   font-size: 1.3rem;
+   font-size: 1.02rem;
  margin: 0;
  
    }
@@ -1182,7 +1181,7 @@ font-size: larger;
    }
   
    form input{
-     width:22rem;
+     width:20rem;
      padding:16px;
      border:none;
      border-radius:3px;
@@ -1192,13 +1191,13 @@ font-size: larger;
    }
   
    form textarea{
-     width: 22rem;
+     width: 20rem;
      height: 9.5rem;
      
      box-shadow: 2px 2px 3px 3px rgba(208, 208, 208, 0.176) ;
    }
    form button{
-     width:23.5rem;
+     width:21.5rem;
      padding:22.4px;
      border: none;
    margin-top:32px;
@@ -1423,7 +1422,7 @@ width: 100%;
   margin: 0;
 text-align: center;
 display: flex;
-padding: 3.5rem;
+padding: 3rem;
 justify-content: center;
 align-items: center;
 
