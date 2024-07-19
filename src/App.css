@@ -1029,7 +1029,7 @@ font-size: larger;
   padding-bottom: 5rem;
 }
 .project img{
-  width: 25rem;
+  width: 26;
   height: 100%;
  
 }
@@ -1163,9 +1163,9 @@ font-size: larger;
  
    }
    .contact-sec1 p{
-   width:400px;
+   width:24rem;
    line-height: 37.6px;
-   font-size: 21.44px;
+   font-size: 1.3rem;
  margin: 0;
  
    }
@@ -1182,7 +1182,7 @@ font-size: larger;
    }
   
    form input{
-     width:368px;
+     width:22rem;
      padding:16px;
      border:none;
      border-radius:3px;
@@ -1192,13 +1192,13 @@ font-size: larger;
    }
   
    form textarea{
-     width: 368px;
-     height: 10rem;
+     width: 22rem;
+     height: 9.5rem;
      
      box-shadow: 2px 2px 3px 3px rgba(208, 208, 208, 0.176) ;
    }
    form button{
-     width:396.8px;
+     width:23.5rem;
      padding:22.4px;
      border: none;
    margin-top:32px;
@@ -1228,10 +1228,11 @@ align-self: center;
   .project-pic{
     width: 100%;
     height: auto;
+    margin: 0;
   }
   .project-pic img{
-    width: 432px;
-    height: auto;
+    width: 24rem;
+    height: 100%;
     margin: 0;
   }
  
@@ -1273,10 +1274,10 @@ align-self: center;
    align-items: center;
   }
   .details-section div p{
-    font-size:25.6px;
+    font-size:23px;
     line-height: 44.8px;
  margin: 0;
- width: 392px;
+ width: 23.5rem;
  padding: 0;
   }
   
@@ -1292,7 +1293,7 @@ align-self: center;
  }
   .project-details h6, p {
   line-height: 19.2px;
-  font-size:28.8px ;
+  font-size:1.5rem ;
 
   }
  .challange ul {
@@ -1300,28 +1301,28 @@ align-self: center;
 
  }
  .challange ul li{
-  font-size: 22.4px;
-  width: 403.68px;
+  font-size: 1.3rem;
+  width: 24rem;
   line-height: 33.6px;
 margin-bottom: 27.2px;
  }
  
 .solution p{
-  font-size: 22.4px;
-  width: 403.68px;
+  font-size: 1.3rem;
+  width: 24rem;
   line-height: 33.6px;
 }
  
 .design-system p{
   
-  font-size: 22.4px;
-  width: 403.68px;
+  font-size: 1.3rem;
+  width: 24rem;
   line-height: 33.6px;
   
 }
 .result-section p{
-  font-size: 22.4px;
-  width: 403.68px;
+  font-size: 1.3rem;
+  width: 24rem;
   line-height: 33.6px;
  
 }
@@ -1425,6 +1426,14 @@ display: flex;
 padding: 3.5rem;
 justify-content: center;
 align-items: center;
+
+}
+.submit{
+  color: #635f5b;
+ 
+}
+.footer-nav ul li{
+font-size: 1rem;
 }
 }
 

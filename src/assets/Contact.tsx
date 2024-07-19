@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                         <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email' required />
                         <label>Message</label>
                         <textarea name="message" value={formData.message} onChange={handleChange} placeholder='How can I help you?' cols={35} required />
-                        <button type="submit">Send message</button>
+                        <button className="submit" type="submit">Send message</button>
                     </form>
  
                 </div>
