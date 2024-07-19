@@ -15,7 +15,7 @@ const Myworks: React.FC<PortfolioItemProps> = ({ id, title, description, imageUr
         <div className="project">
           <h2>{title}</h2>
           <img className="project-image" src={imageUrl} alt={`${title} project`} />
-          <p>{description}</p>
+          <p className='project-des'>{description}</p>
         </div>
       </Link>
     </div>

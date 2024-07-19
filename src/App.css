@@ -173,6 +173,9 @@ align-items: center;
  
   font-size: large;
 }
+.card1-btn:hover{
+  background-color: #cbcbcb6c;
+}
 .item-card1 p{
   width: 300px;
   font-size: larger;
@@ -401,6 +404,12 @@ cursor: pointer;
   padding: 20px;
   text-align: center;
  
+}
+.project-des{
+  margin-top: 3rem;
+  text-align:center;
+font-weight:410 ;
+line-height: 1.9rem;
 }
 
 .project img {
@@ -981,6 +990,7 @@ grid-template-columns: repeat(2,1fr);
 align-items: center;
 font-size: 16px;
 line-height: 25.6px;
+gap: 0;
  }
  
 
@@ -1066,6 +1076,7 @@ font-size: larger;
 
 
 }
+
 
 
 .skill-columns{
@@ -1406,6 +1417,16 @@ text-align: center;
 .design-system img{
 width: 100%;
 }
+
+.contact-button{
+  margin: 0;
+text-align: center;
+display: flex;
+padding: 3.5rem;
+justify-content: center;
+align-items: center;
 }
+}
+
 
 

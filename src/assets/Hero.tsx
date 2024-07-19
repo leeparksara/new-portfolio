@@ -32,58 +32,77 @@ return(
   
     <div className='card-container'>
 
+  <Link to="zada-verify">
+
   
-    <div className='item-card1'>
+  <div className='item-card1'>
         
         <img className='item1' src={verifier} alt="item"/>
         <div  className='card-info' >
             <h1>Verifeir web-app </h1>
             <p>  Designed as part of my internship. Created a new UI/UX concept and conducted UX research</p>
      <div className="card1-btn" >
-     <Link   to="zada-verify">View Case Study</Link>
+    View Case Study
      </div>
           
         </div>
     </div>
-    <div className='item-card2'>
+  
+  </Link>
+
+
+  <Link to="myzada">    
+  <div className='item-card2'>
         
         <img className='item2' src={myzada} alt="item"/>
         <div className='card-info'>
             <h1>Myzada web-app </h1>
             <p> Redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases</p>
 <div className="card1-btn">
-<Link  to="myzada">View Case Study</Link>
+View Case Study
 </div>
       
 
         </div>
     </div>
-    <div className='item-card3'>
+  </Link>
+    
+
+<Link to="https://horizonspa.netlify.app/ ">
+<div className='item-card3'>
         
         <img className='item3' src={spa} alt="item"/>
         <div className='card-info'>
             <h1>Horizon</h1>
             <p> Designing and developing a resort website using Figma for the design and React.js for the development.</p>
     <div className="card1-btn">
-    <Link   to="https://horizonspa.netlify.app/">View Project</Link>
+    View Project
     </div>
            
 
         </div>
     </div>
-    <div className='item-card4'>
+</Link>
+
+
+<Link to="urban">  
+
+
+<div className='item-card4'>
         
         <img className='item4' src={el} alt="item"/>
         <div className='card-info'>
             <h1>Urban </h1>
             <p> Designed and developed as a collaborative project with two classmates under my studies.</p>
             <div className="card1-btn">
-            <Link   to="urban">View Case Study</Link>
+           View Case Study
             </div>
             
 
         </div>
     </div>
+</Link>
+   
     
     </div>
 </div>

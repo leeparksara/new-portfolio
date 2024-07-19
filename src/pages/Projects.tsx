@@ -13,25 +13,25 @@ const projectItems = [
   {
     id: 'myzada',
     title: 'MyZada',
-    description: 'My zada is a web-app',
+    description: 'My Zada Credential Web-app',
     imageUrl: myZadaProject,
   },
   {
     id: 'zada-verify',
     title: 'Zada Verify',
-    description: 'Zada Verify is a web-app',
+    description: 'Zada Verify Credential Verifying Web-app',
     imageUrl: zadaVerify,
   },
   {
     id: 'horizon',
     title: 'Horizon',
-    description: 'Horizon is a web-app',
+    description: 'Horizon Resort Website',
     imageUrl: horizonProject,
   },
   {
     id: 'urban',
     title: 'Urban',
-    description: 'Urban is a web-app',
+    description: 'Urban An Online Store',
     imageUrl: elProject,
   },
 ];
