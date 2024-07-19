@@ -151,7 +151,7 @@ Tools
         <h4> MyZada</h4>
         <p> Zada is a web application for requesting credentials, redesigned as part of my internship. My role was to revamp the UI/UX, create new use cases, and add new features to improve of the application </p>
 <div className='other-project-btn'>
-<Link  to="Myzada">View study case</Link>
+<Link  to="/myzada">View study case</Link>
 </div>
         </div>
 

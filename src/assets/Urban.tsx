@@ -31,7 +31,7 @@ const Myzada = () => {
 
 
         <div className='details-section'>
-            <div>
+            <div className='details-tex'>
             <p> Urban is an electronic online store, developed as a collaborative project with two classmates under my studies. My role was to design a flexible online store that works on different devices, manage the database using PostgreSQL</p>
             </div>
 
@@ -129,7 +129,7 @@ Tools
         <h4> Zada Verify</h4>
         <p> Zada Verify is a web application for verifying credentials, designed as part of my internship. My role was to create a new UI/UX concept, conduct user experience research, and redesign the application </p>
 <div className='other-project-btn'>
-<Link  to="zada-verify">View study case</Link>
+<Link  to="/zada-verify">View study case</Link>
 </div>
         </div>
 

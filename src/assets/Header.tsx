@@ -27,10 +27,15 @@ const toggleMenu =() =>{
 
 <nav className={menuOpen ? 'nav-menu open' : 'nav-menu'}>
           
-          <ul> <li><Link className='nav-link' to="/"  onClick={toggleMenu}>Home</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/projects" onClick={toggleMenu}>Projects</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/about" onClick={toggleMenu}>About</Link></li></ul>
-          <ul><li><Link className='nav-link' to="/contact" onClick={toggleMenu}>Contact</Link></li></ul>
+          <ul> <li><Link className='nav-link' to="/"  onClick={toggleMenu}>Home</Link></li>
+          <li><Link className='nav-link' to="/projects" onClick={toggleMenu}>Projects</Link></li>
+          <li><Link className='nav-link' to="/about" onClick={toggleMenu}>About</Link></li>
+          <li><Link className='nav-link' to="/contact" onClick={toggleMenu}>Contact</Link></li>
+          <li><Link className='nav-link' to="https://drive.google.com/file/d/1X6D1blotjslgvN5euvhnxof2_qhaDgeK/view?usp=sharing">Resume</Link></li>
+          </ul>
+
+
+      
             </nav>
 
            
