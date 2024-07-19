@@ -1043,7 +1043,7 @@ font-size: larger;
 
 
 .pro p{
-  font-size: 1.4rem;
+  font-size: 1.02rem;
   margin-top: 3rem;
 }
 .pro h2{
@@ -1091,14 +1091,14 @@ font-size: larger;
 .skill-section p {
   width: 23rem;
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.02rem;
   line-height: 32px;
 }
 
   .about-text p{
     line-height: 2rem;
     width: 24rem;
-    font-size: 1.1rem;
+    font-size: 1.02rem;
    
   }
  
@@ -1164,7 +1164,7 @@ font-size: larger;
    .contact-sec1 p{
    width:24rem;
    line-height: 37.6px;
-   font-size: 1.02rem;
+   font-size: 1rem;
  margin: 0;
  
    }
@@ -1273,10 +1273,11 @@ align-self: center;
    align-items: center;
   }
   .details-section div p{
-    font-size:23px;
+    font-size:1.02;
     line-height: 44.8px;
+      
  margin: 0;
- width: 23.5rem;
+ width:24rem;
  padding: 0;
   }
   
@@ -1292,7 +1293,7 @@ align-self: center;
  }
   .project-details h6, p {
   line-height: 19.2px;
-  font-size:1.5rem ;
+  font-size:1.02rem ;
 
   }
  .challange ul {
@@ -1300,14 +1301,14 @@ align-self: center;
 
  }
  .challange ul li{
-  font-size: 1.3rem;
+  font-size: 1.02rem;
   width: 24rem;
   line-height: 33.6px;
 margin-bottom: 27.2px;
  }
  
 .solution p{
-  font-size: 1.3rem;
+  font-size: 1.02rem;
   width: 24rem;
   line-height: 33.6px;
 }
@@ -1397,8 +1398,8 @@ text-align: center;
   text-align: center;
  }
  .process p{
-  font-size: 22.4px;
-  width: 403.68px;
+  font-size: 1.02;
+  width: 24rem;
   line-height: 33.6px;
  }
  .solution .ideas {
@@ -1433,6 +1434,10 @@ align-items: center;
 }
 .footer-nav ul li{
 font-size: 1rem;
+}
+.project .project-image{
+  width: 27rem;
+  height: 100%;
 }
 }
 
