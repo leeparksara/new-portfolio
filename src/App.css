@@ -954,6 +954,7 @@ row-gap: 40px;
 .item-card1, .item-card2, .item-card3, .item-card4{
   width:350px;
   height: auto;
+
   /*background-color:			#e1ddd6;*/
  border-radius: 2rem;
  display: flex;
@@ -962,6 +963,7 @@ row-gap: 40px;
 align-items: center;
  color:	hsl(30, 4%, 37%);
  padding: 0; 
+ padding-top:3rem;
  padding-bottom:3rem;
 border: none;
  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.176);
@@ -972,6 +974,7 @@ border: none;
  padding: 1.2rem;
   font-size: 1.2rem;
   text-align: center;
+  margin:0;
 }
 .item-card1 p, .item-card2 p, .item-card3 p, .item-card4 p{
   width: 340px;
@@ -1007,7 +1010,7 @@ border: none;
    display: none;
  }
  .footer {
-height: 144px;
+height: auto;
 width: 100%;
 
  }
@@ -1206,7 +1209,7 @@ font-size: larger;
    form input{
      width:20rem;
      padding:16px;
-     border:none;
+     border:1px solid gray;
      border-radius:3px;
   font-size: 16px;
   box-shadow: 2px 2px 3px 3px rgba(208, 208, 208, 0.176) ;
@@ -1219,7 +1222,7 @@ font-size: larger;
    form textarea{
      width: 20rem;
      height: 9.5rem;
-     
+     border: 1px solid gray;
      box-shadow: 2px 2px 3px 3px rgba(208, 208, 208, 0.176) ;
    }
    form button{
