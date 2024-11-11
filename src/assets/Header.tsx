@@ -31,7 +31,7 @@ const toggleMenu =() =>{
           <li><Link className='nav-link' to="/projects" onClick={toggleMenu}>Projects</Link></li>
           <li><Link className='nav-link' to="/about" onClick={toggleMenu}>About</Link></li>
           <li><Link className='nav-link' to="/contact" onClick={toggleMenu}>Contact</Link></li>
-          <li><Link className='nav-link' to="https://drive.google.com/file/d/1X6D1blotjslgvN5euvhnxof2_qhaDgeK/view?usp=sharing">Resume</Link></li>
+          <li><Link className='nav-link' to="https://drive.google.com/file/d/1-lMb0ZNPdNdF5t99ki-W6Yzoj6mxRPcS/view?usp=sharing">Resume</Link></li>
           </ul>
 
 

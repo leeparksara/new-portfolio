@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+
 import Header from '../assets/Header';
 import Footer from '../assets/Footer';
 import myZadaProject from '../images/iPhone 13 Pro.png';
@@ -7,14 +7,21 @@ import zadaVerify from '../images/iPhone 15 Pro.png';
 import horizonProject from '../images/Mac Studio2.png';
 import elProject from '../images/Mac Studio.png';
 import Myworks from '../assets/Myworks';
-
+import eliteProjecrImage from '../images/tela.png'
 const projectItems = [
   //this id should be added to the route path in app.tsx to display each project
+ 
   {
     id: 'myzada',
     title: 'MyZada',
-    description: 'My Zada Credential Web-app',
+    description: 'Elite Furniture Website',
     imageUrl: myZadaProject,
+  },
+   {
+    id: 'elite',
+    title: 'Elite',
+    description: 'My Zada Credential Web-app',
+    imageUrl: eliteProjecrImage ,
   },
   {
     id: 'zada-verify',
@@ -47,10 +54,13 @@ const Projects: React.FC = () => {
         ))}
 
 
-<div className='contact-button'>
-<Link   to="/contact"> Contact me</Link>
-</div>
+
+
+
       </div>
+    
+      
+
       <Footer />
     </div>
   );

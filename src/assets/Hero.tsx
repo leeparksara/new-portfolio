@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 
 import verifier from '../images/verifer.png'
 import myzada from '../images/myzada.png'
+import elit from '../images/elit.png'
 
 const Hero: React.FC =() =>{
 return(
@@ -13,7 +14,7 @@ return(
  <div className='hero-section'>
     
 <div className='hero'  >
-    <h1 > Sara Leepark 
+    <h1 > Sara Le
         <div className='hero-span'>
     <span>Frontend </span>  Developer
         </div> 
@@ -31,6 +32,27 @@ return(
         <div className='items-section'>
   
     <div className='card-container'>
+
+
+    <Link to="https://elitte.netlify.app/">
+
+  
+<div className='item-card1'>
+      
+      <img className='item3' src={elit} alt="item"/>
+      <div  className='card-info' >
+          <h1>Elite Furniture</h1>
+          <p>Designed and developed a furniture website from scratch using Figma, React, Tailwind CSS, TypeScript, and Contentful</p>
+   <div className="card1-btn" >
+  View Project
+   </div>
+        
+      </div>
+  </div>
+
+</Link>
+
+
 
   <Link to="zada-verify">
 

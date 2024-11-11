@@ -8,13 +8,14 @@ import Zadaverifier from './assets/Zadaverifier';
 import Urban from './assets/Urban';
 import About from './assets/About';
 import Redirectcomponent from './assets/HorizonRedirect';
+import Elite from './assets/Elite'
 
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -31,6 +32,7 @@ const App: React.FC = () => {
           <Route path="/project/zada-verify" element={<Zadaverifier />} />
           <Route path="/project/urban" element={<Urban />} />
           <Route path="/project/horizon" element={<Redirectcomponent url="https://horizonspa.netlify.app/" />} />
+          <Route path='/project/elite' element={<Elite url="https://elitte.netlify.app/"/>}/>
 
           {/* Other nested project routes */}
           <Route path="/project/zada-verify/Myzada" element={<Myzada />} />
