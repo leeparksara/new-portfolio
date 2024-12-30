@@ -3,7 +3,7 @@ import profil from '../images/profile.png'
 import spa from '../images/Group 150.png'
 import el from '../images/el2.png'
 import {Link} from 'react-router-dom'
-
+import tufly from '../images/tufly.png'
 import verifier from '../images/verifer.png'
 import myzada from '../images/myzada.png'
 import elit from '../images/elit.png'
@@ -32,12 +32,28 @@ return(
         <div className='items-section'>
   
     <div className='card-container'>
+<Link to="https://www.tufly.co.kr/">
+<div className='item-card1'>
+      
+      <img className='item3' src={tufly} alt="item"/>
+      <div  className='card-info' >
+          <h1>Tufly </h1>
+          <p>Designed with figma and built mental sport service website with Wix </p>
+   <div className="card1-btn" >
+  View Project
+   </div>
+        
+      </div>
+  </div>
+</Link>
+   
+
 
 
     <Link to="https://elitte.netlify.app/">
 
   
-<div className='item-card1'>
+<div className='item-card2'>
       
       <img className='item3' src={elit} alt="item"/>
       <div  className='card-info' >

@@ -3,26 +3,33 @@ import React from 'react';
 import Header from '../assets/Header';
 import Footer from '../assets/Footer';
 import myZadaProject from '../images/iPhone 13 Pro.png';
+import tufly1 from '../images/tufly1.png'
 import zadaVerify from '../images/iPhone 15 Pro.png';
-import horizonProject from '../images/Mac Studio2.png';
-import elProject from '../images/Mac Studio.png';
+import horizonProject from '../images/horizon.png';
+import elProject from '../images/el.png';
 import Myworks from '../assets/Myworks';
-import eliteProjecrImage from '../images/tela.png'
+import eliteProjecrImage from '../images/elite.png'
 const projectItems = [
   //this id should be added to the route path in app.tsx to display each project
- 
+  {
+    id: 'tufly',
+    title: 'Tufly',
+    description: 'Tufly Mental sport',
+    imageUrl: tufly1,
+  },
+  {
+    id: 'elite',
+    title: 'Elite',
+    description: 'My Zada Credential Web-app',
+    imageUrl: eliteProjecrImage ,
+  },
   {
     id: 'myzada',
     title: 'MyZada',
     description: 'Elite Furniture Website',
     imageUrl: myZadaProject,
   },
-   {
-    id: 'elite',
-    title: 'Elite',
-    description: 'My Zada Credential Web-app',
-    imageUrl: eliteProjecrImage ,
-  },
+  
   {
     id: 'zada-verify',
     title: 'Zada Verify',
